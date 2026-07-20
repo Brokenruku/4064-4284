@@ -34,6 +34,36 @@
     </div>
 </div>
 
+<div class="card mb-4">
+    <div class="card-header">Gains par operateur</div>
+    <div class="card-body p-0">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>Operateur</th>
+                    <th>Clients</th>
+                    <th>Masse monetaire</th>
+                    <th>Gains retrait</th>
+                    <th>Gains transfert</th>
+                    <th>Gains totaux</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($performance as $ligne): ?>
+                    <tr>
+                        <td><?= esc($ligne['operateur']) ?></td>
+                        <td><?= esc($ligne['nb_clients']) ?></td>
+                        <td><?= number_format($ligne['volume_retraits'] + $ligne['volume_transferts'], 0, ',', ' ') ?> Ar</td>
+                        <td><?= number_format($ligne['gains_retraits'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                        <td><?= number_format($ligne['gains_transferts'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                        <td><?= number_format($ligne['gains_totaux'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <div class="row g-3">
     <div class="col-md-4">
         <a href="/operateur/depot" class="text-decoration-none">

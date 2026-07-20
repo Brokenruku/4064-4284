@@ -16,7 +16,6 @@
     <?php if (session()->getFlashdata('erreur')): ?>
     <div class="alert alert-danger"><?= esc(session()->getFlashdata('erreur')) ?></div>
     <?php endif; ?>
-
     <form class="w-100 px-3" id="loginForm" action="/login" method="post">
       <div class="input-group mb-3">
         <select class="form-select bg-dark text-white " name="prefix_id" style="max-width: 90px; flex: 0 0 90px;" required>

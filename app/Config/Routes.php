@@ -30,6 +30,16 @@ $routes->post('/operateur/prefixes', 'Prefixe::store');
 $routes->post('/operateur/prefixes/(:num)', 'Prefixe::update/$1');
 $routes->post('/operateur/prefixes/(:num)/supprimer', 'Prefixe::delete/$1');
 
+$routes->get('/operateur/organisations', 'Organisation::index');
+$routes->post('/operateur/organisations', 'Organisation::store');
+$routes->post('/operateur/organisations/(:num)', 'Organisation::update/$1');
+$routes->post('/operateur/organisations/(:num)/supprimer', 'Organisation::delete/$1');
+
+$routes->get('/operateur/commission-supp', 'Creation_operation::commission_supp');
+$routes->post('/operateur/commission-supp', 'Creation_operation::store_commission_supp');
+$routes->post('/operateur/commission-supp/(:num)', 'Creation_operation::update_commission_supp/$1');
+$routes->post('/operateur/commission-supp/(:num)/supprimer', 'Creation_operation::delete_commission_supp/$1');
+
 $routes->get('/operateur/comptes', 'Creation_operation::comptes');
 $routes->get('/operateur/comptes/(:num)', 'Creation_operation::compte_detail/$1');
 
@@ -44,5 +54,7 @@ $routes->group('client', ['filter' => 'clientAuth'], static function ($routes) {
     $routes->post('retrait', 'Client::store_retrait');
     $routes->get('transfert', 'Client::transfert');
     $routes->post('transfert', 'Client::store_transfert');
+    $routes->get('transfert-multiple', 'Client::transfert_multiple');
+    $routes->post('transfert-multiple', 'Client::store_transfert_multiple');
     $routes->get('historique', 'Client::historique');
 });

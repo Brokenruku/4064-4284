@@ -1,10 +1,23 @@
 PRAGMA foreign_keys = ON;
 
 
+CREATE TABLE organisation (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nom TEXT NOT NULL
+);
+
 CREATE TABLE prefixes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     prefix TEXT NOT NULL,
-    nom TEXT NOT NULL
+    organisation_id INTEGER NOT NULL,
+    FOREIGN KEY (organisation_id) REFERENCES organisation(id)
+);
+
+CREATE TABLE commission_supp (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    organisation_id INTEGER NOT NULL,
+    pourcentage NUMERIC NOT NULL,
+    FOREIGN KEY (organisation_id) REFERENCES organisation(id)
 );
 
 CREATE TABLE numero_telephone (
@@ -62,10 +75,11 @@ SELECT
     nt.id AS compte_id,
     p.prefix || nt.numero AS telephone,
     nt.solde,
-    p.nom AS operateur,
+    o.nom AS operateur,
     p.prefix
 FROM numero_telephone nt
-JOIN prefixes p ON nt.prefix_id = p.id;
+JOIN prefixes p ON nt.prefix_id = p.id
+JOIN organisation o ON p.organisation_id = o.id;
 
 -- 2. Vue des gains par type d'opération (frais calculés dynamiquement)
 CREATE VIEW v_gains_par_operation AS
@@ -244,7 +258,7 @@ ORDER BY type_operation, montant_min;
 -- 9. Vue du solde moyen par opérateur
 CREATE VIEW v_solde_moyen_operateur AS
 SELECT 
-    p.nom AS operateur,
+    o.nom AS operateur,
     p.prefix,
     COUNT(nt.id) AS nb_clients,
     AVG(nt.solde) AS solde_moyen,
@@ -252,6 +266,7 @@ SELECT
     MAX(nt.solde) AS solde_max,
     SUM(nt.solde) AS solde_total
 FROM prefixes p
+JOIN organisation o ON p.organisation_id = o.id
 JOIN numero_telephone nt ON p.id = nt.prefix_id
 GROUP BY p.id;
 
@@ -355,9 +370,10 @@ SELECT
     nt.numero,
     p.prefix || nt.numero AS telephone_complet,
     nt.solde,
-    p.nom AS operateur
+    o.nom AS operateur
 FROM numero_telephone nt
-JOIN prefixes p ON nt.prefix_id = p.id;
+JOIN prefixes p ON nt.prefix_id = p.id
+JOIN organisation o ON p.organisation_id = o.id;
 
 -- 13. Vue du résumé client (dashboard client)
 CREATE VIEW v_resume_client AS
@@ -433,38 +449,137 @@ SELECT
 
 -- 16. Vue de performance par opérateur
 CREATE VIEW v_performance_operateur AS
+SELECT
+    o.id AS organisation_id,
+    o.nom AS operateur,
+    (SELECT COUNT(DISTINCT nt.id) FROM numero_telephone nt JOIN prefixes p ON nt.prefix_id = p.id WHERE p.organisation_id = o.id) AS nb_clients,
+    (SELECT COUNT(r.id) FROM retrait r JOIN numero_telephone nt ON r.numero_telephone_id = nt.id JOIN prefixes p ON nt.prefix_id = p.id WHERE p.organisation_id = o.id) AS nb_retraits,
+    (SELECT COALESCE(SUM(r.montant), 0) FROM retrait r JOIN numero_telephone nt ON r.numero_telephone_id = nt.id JOIN prefixes p ON nt.prefix_id = p.id WHERE p.organisation_id = o.id) AS volume_retraits,
+    (SELECT COALESCE(SUM(fr.frais), 0) FROM retrait r JOIN numero_telephone nt ON r.numero_telephone_id = nt.id JOIN prefixes p ON nt.prefix_id = p.id LEFT JOIN frais_retrait fr ON r.montant BETWEEN fr.montant_min AND fr.montant_max WHERE p.organisation_id = o.id) AS gains_retraits,
+    (SELECT COUNT(*) FROM v_transfert_commission WHERE organisation_expediteur_id = o.id) AS nb_transferts,
+    (SELECT COALESCE(SUM(montant), 0) FROM v_transfert_commission WHERE organisation_expediteur_id = o.id) AS volume_transferts,
+    (SELECT COALESCE(SUM(montant_operateur), 0) FROM v_transfert_commission WHERE organisation_expediteur_id = o.id)
+        + (SELECT COALESCE(SUM(montant_operateur_adverse), 0) FROM v_transfert_commission WHERE organisation_destinataire_id = o.id AND inter_operateur = 1) AS gains_transferts,
+    (SELECT COALESCE(SUM(fr.frais), 0) FROM retrait r JOIN numero_telephone nt ON r.numero_telephone_id = nt.id JOIN prefixes p ON nt.prefix_id = p.id LEFT JOIN frais_retrait fr ON r.montant BETWEEN fr.montant_min AND fr.montant_max WHERE p.organisation_id = o.id)
+        + (SELECT COALESCE(SUM(montant_operateur), 0) FROM v_transfert_commission WHERE organisation_expediteur_id = o.id)
+        + (SELECT COALESCE(SUM(montant_operateur_adverse), 0) FROM v_transfert_commission WHERE organisation_destinataire_id = o.id AND inter_operateur = 1) AS gains_totaux
+FROM organisation o;
+
+-- 17. Vue des prefixes avec leur organisation
+CREATE VIEW v_prefixes_organisation AS
 SELECT 
-    p.nom AS operateur,
-    COUNT(DISTINCT nt.id) AS nb_clients,
-    COUNT(r.id) AS nb_retraits,
-    SUM(r.montant) AS volume_retraits,
-    SUM(COALESCE(fr.frais, 0)) AS gains_retraits,
-    COUNT(t.id) AS nb_transferts,
-    SUM(t.montant) AS volume_transferts,
-    SUM(COALESCE(ft.frais, 0)) AS gains_transferts,
-    SUM(COALESCE(fr.frais, 0)) + SUM(COALESCE(ft.frais, 0)) AS gains_totaux
+    p.id,
+    p.prefix,
+    p.organisation_id,
+    o.nom AS organisation
 FROM prefixes p
-LEFT JOIN numero_telephone nt ON p.id = nt.prefix_id
-LEFT JOIN retrait r ON nt.id = r.numero_telephone_id
-LEFT JOIN frais_retrait fr ON r.montant BETWEEN fr.montant_min AND fr.montant_max
-LEFT JOIN transfert t ON nt.id = t.expediteur_id OR nt.id = t.destinataire_id
+JOIN organisation o ON p.organisation_id = o.id;
+
+-- 18. Vue detail transfert avec repartition operateur / commission autre operateur
+CREATE VIEW v_transfert_commission AS
+SELECT 
+    t.id AS transfert_id,
+    t.montant,
+    t.date_transfert,
+    pe.organisation_id AS organisation_expediteur_id,
+    oe.nom AS organisation_expediteur,
+    pd.organisation_id AS organisation_destinataire_id,
+    od.nom AS organisation_destinataire,
+    COALESCE(ft.frais, 0) AS frais,
+    CASE WHEN pe.organisation_id = pd.organisation_id THEN 0 ELSE 1 END AS inter_operateur,
+    COALESCE(cs.pourcentage, 0) AS pourcentage_commission,
+    CASE
+        WHEN pe.organisation_id = pd.organisation_id THEN 0
+        ELSE ROUND(t.montant * COALESCE(cs.pourcentage, 0) / 100, 2)
+    END AS montant_commission,
+    COALESCE(ft.frais, 0) AS montant_operateur,
+    CASE
+        WHEN pe.organisation_id = pd.organisation_id THEN 0
+        ELSE ROUND(t.montant * COALESCE(cs.pourcentage, 0) / 100, 2)
+    END AS montant_operateur_adverse
+FROM transfert t
+JOIN numero_telephone ne ON t.expediteur_id = ne.id
+JOIN numero_telephone nd ON t.destinataire_id = nd.id
+JOIN prefixes pe ON ne.prefix_id = pe.id
+JOIN prefixes pd ON nd.prefix_id = pd.id
+JOIN organisation oe ON pe.organisation_id = oe.id
+JOIN organisation od ON pd.organisation_id = od.id
 LEFT JOIN frais_transfert ft ON t.montant BETWEEN ft.montant_min AND ft.montant_max
-GROUP BY p.id;
+LEFT JOIN commission_supp cs ON cs.organisation_id = pd.organisation_id;
+
+-- 19. Vue des gains separant operateur actuel et autres operateurs
+CREATE VIEW v_gains_par_operation_detail AS
+SELECT 
+    'Retrait' AS type_operation,
+    'Operateur' AS categorie,
+    COUNT(r.id) AS nombre_operations,
+    SUM(COALESCE(fr.frais, 0)) AS total_gains
+FROM retrait r
+LEFT JOIN frais_retrait fr ON r.montant BETWEEN fr.montant_min AND fr.montant_max
+UNION ALL
+SELECT 
+    'Transfert' AS type_operation,
+    'Meme operateur' AS categorie,
+    COUNT(*) AS nombre_operations,
+    SUM(montant_operateur) AS total_gains
+FROM v_transfert_commission
+WHERE inter_operateur = 0
+UNION ALL
+SELECT 
+    'Transfert' AS type_operation,
+    'Autres operateurs' AS categorie,
+    COUNT(*) AS nombre_operations,
+    SUM(montant_operateur_adverse) AS total_gains
+FROM v_transfert_commission
+WHERE inter_operateur = 1;
+
+-- 20. Vue de la situation des montants a envoyer a chaque operateur
+CREATE VIEW v_situation_montants_a_envoyer AS
+SELECT 
+    organisation_destinataire_id AS organisation_id,
+    organisation_destinataire AS organisation,
+    COUNT(*) AS nombre_transferts,
+    SUM(montant) AS volume_transferts,
+    SUM(montant_commission) AS montant_a_envoyer
+FROM v_transfert_commission
+WHERE inter_operateur = 1
+GROUP BY organisation_destinataire_id;
 
 
+
+
+-- =========================================
+-- INSERTION DES ORGANISATIONS
+-- =========================================
+
+INSERT INTO organisation (nom) VALUES
+('Orange Madagascar'),
+('Airtel Madagascar'),
+('Telma Mobile'),
+('Telma Fixe');
 
 
 -- =========================================
 -- INSERTION DES PREFIXES
 -- =========================================
 
-INSERT INTO prefixes (prefix, nom) VALUES
-('032', 'Orange Madagascar'),
-('037', 'Orange Madagascar'),
-('033', 'Airtel Madagascar'),
-('034', 'Telma Mobile'),
-('038', 'Telma Mobile'),
-('020', 'Telma Fixe');
+INSERT INTO prefixes (prefix, organisation_id) VALUES
+('032', 1),
+('037', 1),
+('033', 2),
+('034', 3),
+('038', 3),
+('020', 4);
+
+
+-- =========================================
+-- INSERTION DES COMMISSIONS SUPPLEMENTAIRES
+-- =========================================
+
+INSERT INTO commission_supp (organisation_id, pourcentage) VALUES
+(2, 10),
+(3, 8),
+(4, 5);
 
 
 -- =========================================

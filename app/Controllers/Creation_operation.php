@@ -10,6 +10,8 @@ use App\Models\FraisTransfertModel;
 use App\Models\NumeroTelephoneModel;
 use App\Models\GainModel;
 use App\Models\CompteModel;
+use App\Models\CommissionSuppModel;
+use App\Models\OrganisationModel;
 
 class Creation_operation extends BaseController
 {
@@ -17,6 +19,7 @@ class Creation_operation extends BaseController
     {
         $gainModel = new GainModel();
         $data['statistiques'] = $gainModel->statistiquesGlobales();
+        $data['performance'] = $gainModel->performanceOperateur();
         return view('operateur/creation_operation', $data);
     }
 
@@ -223,6 +226,44 @@ class Creation_operation extends BaseController
         return redirect()->to('/operateur/modifier-frais')->with('message', 'Tranche de transfert supprimee');
     }
 
+    public function commission_supp(): string
+    {
+        $commissionModel = new CommissionSuppModel();
+        $organisationModel = new OrganisationModel();
+
+        $data['commissions'] = $commissionModel->toutesAvecOrganisation();
+        $data['organisations'] = $organisationModel->orderBy('nom', 'ASC')->findAll();
+
+        return view('operateur/commission_supp', $data);
+    }
+
+    public function store_commission_supp()
+    {
+        $model = new CommissionSuppModel();
+        $model->insert([
+            'organisation_id' => $this->request->getPost('organisation_id'),
+            'pourcentage' => $this->request->getPost('pourcentage'),
+        ]);
+        return redirect()->to('/operateur/commission-supp')->with('message', 'Commission ajoutee');
+    }
+
+    public function update_commission_supp($id)
+    {
+        $model = new CommissionSuppModel();
+        $model->update($id, [
+            'organisation_id' => $this->request->getPost('organisation_id'),
+            'pourcentage' => $this->request->getPost('pourcentage'),
+        ]);
+        return redirect()->to('/operateur/commission-supp')->with('message', 'Commission modifiee');
+    }
+
+    public function delete_commission_supp($id)
+    {
+        $model = new CommissionSuppModel();
+        $model->delete($id);
+        return redirect()->to('/operateur/commission-supp')->with('message', 'Commission supprimee');
+    }
+
     public function gain(): string
     {
         $gainModel = new GainModel();
@@ -232,6 +273,8 @@ class Creation_operation extends BaseController
         $data['mensuels'] = $gainModel->mensuels();
         $data['repartition'] = $gainModel->repartition();
         $data['performance'] = $gainModel->performanceOperateur();
+        $data['par_operation_detail'] = $gainModel->parOperationDetail();
+        $data['situation_montants'] = $gainModel->situationMontantsAEnvoyer();
 
         return view('operateur/gain', $data);
     }
@@ -250,4 +293,4 @@ class Creation_operation extends BaseController
         $data['historique'] = $compteModel->historique($id);
         return view('operateur/compte_detail', $data);
     }
-}
+}

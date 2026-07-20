@@ -169,6 +169,69 @@ $segmentRetrait = $circonference * ($pourcentageRetrait / 100);
     </div>
 </div>
 
+<div class="row g-4 mb-4">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header">Gains transfert : meme operateur vs autres operateurs</div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Categorie</th>
+                            <th>Nombre</th>
+                            <th>Gain (net commission)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($par_operation_detail as $ligne): ?>
+                            <tr>
+                                <td><?= esc($ligne['type_operation']) ?></td>
+                                <td><?= esc($ligne['categorie']) ?></td>
+                                <td><?= esc($ligne['nombre_operations']) ?></td>
+                                <td><?= number_format($ligne['total_gains'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header">Situation des montants a envoyer a chaque operateur</div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th>Organisation</th>
+                            <th>Transferts</th>
+                            <th>Volume</th>
+                            <th>Montant a envoyer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($situation_montants as $ligne): ?>
+                            <tr>
+                                <td><?= esc($ligne['organisation']) ?></td>
+                                <td><?= esc($ligne['nombre_transferts']) ?></td>
+                                <td><?= number_format($ligne['volume_transferts'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                                <td><?= number_format($ligne['montant_a_envoyer'] ?? 0, 0, ',', ' ') ?> Ar</td>
+                            </tr>
+                        <?php endforeach; ?>
+                        <?php if (empty($situation_montants)): ?>
+                            <tr>
+                                <td colspan="4" class="text-muted text-center py-3">Aucun transfert vers un autre operateur pour le moment</td>
+                            </tr>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="card">
     <div class="card-header">Performance par operateur</div>
     <div class="card-body p-0">
@@ -205,4 +268,4 @@ $segmentRetrait = $circonference * ($pourcentageRetrait / 100);
     </div>
 </div>
 
-<?= $this->include('layout/operateur/footer') ?>
+<?= $this->include('layout/operateur/footer') ?>

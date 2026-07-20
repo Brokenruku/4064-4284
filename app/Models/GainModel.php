@@ -37,4 +37,14 @@ class GainModel
     {
         return $this->db->table('v_performance_operateur')->get()->getResultArray();
     }
+
+    public function parOperationDetail()
+    {
+        return $this->db->table('v_gains_par_operation_detail')->get()->getResultArray();
+    }
+
+    public function situationMontantsAEnvoyer()
+    {
+        return $this->db->table('v_situation_montants_a_envoyer')->get()->getResultArray();
+    }
 }

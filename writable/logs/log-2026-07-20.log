@@ -1,0 +1,2471 @@
+CRITICAL - 2026-07-20 06:44:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 06:44:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:14:59 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:00 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:01 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:01 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:01 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:17 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:17 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:17 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:17 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:18 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:18 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:15:18 --> ErrorException: include(C:\s4\web\4064-4284\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\s4\\web\\4064-4284\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Login.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\s4\\web\\4064-4284\\app\\Controllers\\Login.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\s4\\web\\4064-4284\\vendor\\composer/../../app\\Controllers\\Login.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Login')
+ 8 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Login')
+ 9 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+10 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+11 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:16:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:18:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:19:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:19:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:19:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 07:19:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "creation_operation.php"
+[Method: GET, Route: creation-operation]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creation_operation.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('creation_operation', [], true)
+ 3 APPPATH\Controllers\Creation_operation.php(9): view('creation_operation')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 08:59:36 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 09:00:38 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 09:02:55 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 09:02:55 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 09:02:55 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 09:02:56 --> Error: Class "Config\ClientAuth" not found
+[Method: GET, Route: client]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Config\\ClientAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('client', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:10 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:10 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:11 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:11 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:11 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:11 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:11 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:44 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:44 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:45 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:45 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:45 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:46 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:46 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:46 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:11:49 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:11:49 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:12:12 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:12:12 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:12 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:12:20 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:12:20 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:01 --> Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_performance_operateur`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_performance_operateur`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_performance_operateur`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_performance_operateur`', [], false)
+ 5 APPPATH\Models\GainModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(274): App\Models\GainModel->performanceOperateur()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->gain()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+[Method: GET, Route: operateur/gain]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_performance_operateur`', [], false)
+ 2 APPPATH\Models\GainModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Creation_operation.php(274): App\Models\GainModel->performanceOperateur()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->gain()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_performance_operateur`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_performance_operateur`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_performance_operateur`', [], false)
+ 4 APPPATH\Models\GainModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Creation_operation.php(274): App\Models\GainModel->performanceOperateur()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->gain()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:01 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_performance_operateur`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_performance_operateur`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_performance_operateur`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_performance_operateur`', [], false)
+ 5 APPPATH\Models\GainModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(274): App\Models\GainModel->performanceOperateur()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->gain()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:04 --> Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 5 APPPATH\Models\NumeroTelephoneModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(30): App\Models\NumeroTelephoneModel->listeAvecPrefixe()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->depot()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+[Method: GET, Route: operateur/depot]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 2 APPPATH\Models\NumeroTelephoneModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Creation_operation.php(30): App\Models\NumeroTelephoneModel->listeAvecPrefixe()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->depot()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 4 APPPATH\Models\NumeroTelephoneModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Creation_operation.php(30): App\Models\NumeroTelephoneModel->listeAvecPrefixe()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->depot()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:04 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 5 APPPATH\Models\NumeroTelephoneModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(30): App\Models\NumeroTelephoneModel->listeAvecPrefixe()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->depot()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:07 --> Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 5 APPPATH\Models\CompteModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(284): App\Models\CompteModel->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->comptes()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+[Method: GET, Route: operateur/comptes]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 2 APPPATH\Models\CompteModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Creation_operation.php(284): App\Models\CompteModel->liste()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->comptes()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 4 APPPATH\Models\CompteModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Creation_operation.php(284): App\Models\CompteModel->liste()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->comptes()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:07 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_compte_client`
+ORDER BY `telephone` ASC', [], false)
+ 5 APPPATH\Models\CompteModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(284): App\Models\CompteModel->liste()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->comptes()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:08 --> Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC', [], false)
+ 5 APPPATH\Models\PrefixeModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Prefixe.php(14): App\Models\PrefixeModel->listeAvecOrganisation()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Prefixe->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prefixe))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+[Method: GET, Route: operateur/prefixes]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC', [], false)
+ 2 APPPATH\Models\PrefixeModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Prefixe.php(14): App\Models\PrefixeModel->listeAvecOrganisation()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Prefixe->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prefixe))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC', [], false)
+ 4 APPPATH\Models\PrefixeModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Prefixe.php(14): App\Models\PrefixeModel->listeAvecOrganisation()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Prefixe->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prefixe))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_prefixes_organisation`
+ORDER BY `organisation` ASC', [], false)
+ 5 APPPATH\Models\PrefixeModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Prefixe.php(14): App\Models\PrefixeModel->listeAvecOrganisation()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Prefixe->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prefixe))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:08 --> Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = :client_id:', [...], false)
+ 5 APPPATH\Models\CompteModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(291): App\Models\CompteModel->resume('19')
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->compte_detail('19')
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+[Method: GET, Route: operateur/comptes/19]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = :client_id:', [...], false)
+ 2 APPPATH\Models\CompteModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Creation_operation.php(291): App\Models\CompteModel->resume('19')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->compte_detail('19')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = :client_id:', [...], false)
+ 4 APPPATH\Models\CompteModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Creation_operation.php(291): App\Models\CompteModel->resume('19')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->compte_detail('19')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:08 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: main.prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = \'19\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `v_resume_client`
+WHERE `client_id` = :client_id:', [...], false)
+ 5 APPPATH\Models\CompteModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Creation_operation.php(291): App\Models\CompteModel->resume('19')
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Creation_operation->compte_detail('19')
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creation_operation))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:13 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:13 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:13:15 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:13:15 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:14:14 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:14 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:14:15 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+ERROR - 2026-07-20 12:14:15 --> Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 174.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')
+CRITICAL - 2026-07-20 12:14:15 --> [Caused by] Exception: Unable to prepare statement: 1, no such table: prefixes
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 164.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(164): SQLite3->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prefixes`
+ORDER BY `prefix` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Login.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\s4\\web\\4064-4284\\public\\index.php')

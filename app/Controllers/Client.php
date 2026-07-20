@@ -104,8 +104,9 @@ class Client extends BaseController
         $prefixeModel = new PrefixeModel();
 
         $data['resume'] = $clientModel->resume(session()->get('client_id'));
+        $data['compte'] = $clientModel->trouverParId(session()->get('client_id'));
         $data['tranches'] = $fraisModel->toutesTranches();
-        $data['prefixes'] = $prefixeModel->orderBy('prefix', 'ASC')->findAll();
+        $data['prefixes'] = $prefixeModel->listeAvecOrganisation();
 
         return view('client/transfert', $data);
     }
@@ -116,10 +117,12 @@ class Client extends BaseController
         $clientModel = new ClientModel();
         $transfertModel = new TransfertModel();
         $fraisModel = new FraisTransfertModel();
+        $fraisRetraitModel = new FraisRetraitModel();
 
         $expediteurId = session()->get('client_id');
         $telephoneDestinataire = $this->request->getPost('prefix_destinataire') . $this->request->getPost('numero_destinataire');
         $montant = (float) $this->request->getPost('montant');
+        $inclureFraisRetrait = (bool) $this->request->getPost('inclure_frais_retrait');
         $frais = $fraisModel->calculerFrais($montant);
 
         $destinataire = $clientModel->trouverParTelephone($telephoneDestinataire);
@@ -131,8 +134,21 @@ class Client extends BaseController
             return redirect()->to('/client/transfert')->with('erreur', 'Impossible de transferer vers votre propre compte');
         }
 
-        $expediteur = $numeroModel->find($expediteurId);
-        if (! $expediteur || $expediteur['solde'] < ($montant + $frais)) {
+        $expediteur = $clientModel->trouverParId($expediteurId);
+
+        $fraisRetrait = 0;
+        if ($inclureFraisRetrait) {
+            if (! $expediteur || $destinataire['operateur'] !== $expediteur['operateur']) {
+                return redirect()->to('/client/transfert')->with('erreur', 'Frais de retrait indisponible pour les autres operateurs');
+            }
+            $fraisRetrait = $fraisRetraitModel->calculerFrais($montant);
+        }
+
+        $totalDebite = $montant + $frais + $fraisRetrait;
+        $montantCredite = $montant + $fraisRetrait;
+
+        $compteExpediteur = $numeroModel->find($expediteurId);
+        if (! $compteExpediteur || $compteExpediteur['solde'] < $totalDebite) {
             return redirect()->to('/client/transfert')->with('erreur', 'Solde insuffisant pour ce transfert');
         }
 
@@ -146,12 +162,106 @@ class Client extends BaseController
             'date_transfert' => date('Y-m-d'),
         ]);
 
-        $numeroModel->ajusterSolde($expediteurId, - ($montant + $frais));
-        $numeroModel->ajusterSolde($destinataire['compte_id'], $montant);
+        $numeroModel->ajusterSolde($expediteurId, - $totalDebite);
+        $numeroModel->ajusterSolde($destinataire['compte_id'], $montantCredite);
 
         $db->transComplete();
 
         return redirect()->to('/client')->with('message', 'Transfert effectue, frais preleve: ' . $frais);
+    }
+
+    public function transfert_multiple(): string
+    {
+        $clientModel = new ClientModel();
+        $fraisModel = new FraisTransfertModel();
+        $prefixeModel = new PrefixeModel();
+
+        $compte = $clientModel->trouverParId(session()->get('client_id'));
+
+        $data['resume'] = $clientModel->resume(session()->get('client_id'));
+        $data['compte'] = $compte;
+        $data['tranches'] = $fraisModel->toutesTranches();
+        $data['prefixes'] = array_values(array_filter($prefixeModel->listeAvecOrganisation(), function ($prefixe) use ($compte) {
+            return $compte && $prefixe['organisation'] === $compte['operateur'];
+        }));
+
+        return view('client/transfert_multiple', $data);
+    }
+
+    public function store_transfert_multiple()
+    {
+        $numeroModel = new NumeroTelephoneModel();
+        $clientModel = new ClientModel();
+        $transfertModel = new TransfertModel();
+        $fraisModel = new FraisTransfertModel();
+
+        $expediteurId = session()->get('client_id');
+        $expediteur = $clientModel->trouverParId($expediteurId);
+
+        $prefixesDestinataires = $this->request->getPost('prefix_destinataire');
+        $numerosDestinataires = $this->request->getPost('numero_destinataire');
+        $montantTotal = (float) $this->request->getPost('montant_total');
+
+        if (! is_array($numerosDestinataires) || count($numerosDestinataires) < 1) {
+            return redirect()->to('/client/transfert-multiple')->with('erreur', 'Aucun destinataire renseigne');
+        }
+
+        $nombreDestinataires = count($numerosDestinataires);
+        $montantParDestinataire = round($montantTotal / $nombreDestinataires, 2);
+
+        if ($montantParDestinataire <= 0) {
+            return redirect()->to('/client/transfert-multiple')->with('erreur', 'Montant invalide');
+        }
+
+        $fraisUnitaire = $fraisModel->calculerFrais($montantParDestinataire);
+        $totalFrais = $fraisUnitaire * $nombreDestinataires;
+        $totalDebite = $montantTotal + $totalFrais;
+
+        $compteExpediteur = $numeroModel->find($expediteurId);
+        if (! $compteExpediteur || $compteExpediteur['solde'] < $totalDebite) {
+            return redirect()->to('/client/transfert-multiple')->with('erreur', 'Solde insuffisant pour cet envoi multiple');
+        }
+
+        $destinataires = [];
+        foreach ($numerosDestinataires as $index => $numero) {
+            $prefix = $prefixesDestinataires[$index] ?? '';
+            $telephone = $prefix . $numero;
+            $destinataire = $clientModel->trouverParTelephone($telephone);
+
+            if (! $destinataire) {
+                return redirect()->to('/client/transfert-multiple')->with('erreur', 'Numero destinataire non reconnu: ' . $telephone);
+            }
+
+            if ($destinataire['compte_id'] == $expediteurId) {
+                return redirect()->to('/client/transfert-multiple')->with('erreur', 'Impossible de transferer vers votre propre compte');
+            }
+
+            if (! $expediteur || $destinataire['operateur'] !== $expediteur['operateur']) {
+                return redirect()->to('/client/transfert-multiple')->with('erreur', 'Envoi multiple limite au meme operateur');
+            }
+
+            $destinataires[] = $destinataire;
+        }
+
+        $db = db_connect();
+        $db->transStart();
+
+        foreach ($destinataires as $destinataire) {
+            $transfertModel->insert([
+                'expediteur_id' => $expediteurId,
+                'destinataire_id' => $destinataire['compte_id'],
+                'montant' => $montantParDestinataire,
+                'date_transfert' => date('Y-m-d'),
+            ]);
+
+            $numeroModel->ajusterSolde($destinataire['compte_id'], $montantParDestinataire);
+        }
+
+        $numeroModel->ajusterSolde($expediteurId, - $totalDebite);
+
+        $db->transComplete();
+
+        return redirect()->to('/client')->with('message', 'Envoi multiple effectue vers ' . $nombreDestinataires . ' numeros, frais total preleve: ' . $totalFrais);
     }
 
     public function historique(): string

@@ -7,6 +7,8 @@
         <div class="collapse navbar-collapse" id="navOperateur">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="/operateur/prefixes">Prefixes</a></li>
+                <li class="nav-item"><a class="nav-link" href="/operateur/organisations">Organisations</a></li>
+                <li class="nav-item"><a class="nav-link" href="/operateur/commission-supp">Commission</a></li>
                 <li class="nav-item"><a class="nav-link" href="/operateur/depot">Depot</a></li>
                 <li class="nav-item"><a class="nav-link" href="/operateur/retrait">Retrait</a></li>
                 <li class="nav-item"><a class="nav-link" href="/operateur/transfert">Transfert</a></li>
@@ -17,4 +19,4 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav>

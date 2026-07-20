@@ -3,13 +3,16 @@
 namespace App\Controllers;
 
 use App\Models\PrefixeModel;
+use App\Models\OrganisationModel;
 
 class Prefixe extends BaseController
 {
     public function index(): string
     {
         $model = new PrefixeModel();
-        $data['prefixes'] = $model->orderBy('nom', 'ASC')->findAll();
+        $organisationModel = new OrganisationModel();
+        $data['prefixes'] = $model->listeAvecOrganisation();
+        $data['organisations'] = $organisationModel->orderBy('nom', 'ASC')->findAll();
         return view('operateur/prefixes', $data);
     }
 
@@ -18,7 +21,7 @@ class Prefixe extends BaseController
         $model = new PrefixeModel();
         $model->insert([
             'prefix' => $this->request->getPost('prefix'),
-            'nom'    => $this->request->getPost('nom'),
+            'organisation_id' => $this->request->getPost('organisation_id'),
         ]);
         return redirect()->to('/operateur/prefixes')->with('message', 'Prefixe ajoute avec succes');
     }
@@ -28,7 +31,7 @@ class Prefixe extends BaseController
         $model = new PrefixeModel();
         $model->update($id, [
             'prefix' => $this->request->getPost('prefix'),
-            'nom'    => $this->request->getPost('nom'),
+            'organisation_id' => $this->request->getPost('organisation_id'),
         ]);
         return redirect()->to('/operateur/prefixes')->with('message', 'Prefixe modifie avec succes');
     }

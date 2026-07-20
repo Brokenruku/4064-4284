@@ -23,6 +23,7 @@
                     <li class="nav-item "><a class="nav-link texte" href="/client/depot">Depot</a></li>
                     <li class="nav-item "><a class="nav-link texte" href="/client/retrait">Retrait</a></li>
                     <li class="nav-item"><a class="nav-link texte" href="/client/transfert">Transfert</a></li>
+                    <li class="nav-item"><a class="nav-link texte" href="/client/transfert-multiple">Envoi multiple</a></li>
                     <li class="nav-item "><a class="nav-link texte" href="/client/historique">Historique</a></li>
                     <li class="nav-item"><a class="nav-link texte" href="/logout">Deconnexion</a></li>
                 </ul>

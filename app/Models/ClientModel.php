@@ -30,6 +30,14 @@ class ClientModel
             ->getRowArray();
     }
 
+    public function trouverParId($compteId)
+    {
+        return $this->db->table('v_compte_client')
+            ->where('compte_id', $compteId)
+            ->get()
+            ->getRowArray();
+    }
+
     public function resume($clientId)
     {
         return $this->db->table('v_resume_client')->where('client_id', $clientId)->get()->getRowArray();

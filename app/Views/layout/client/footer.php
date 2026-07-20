@@ -1,5 +1,9 @@
 </main>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
+</main>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/operateur.js"></script>
+</body>
 
 </html>
