@@ -74,3 +74,26 @@ VIEW + ROUTE
 
 JS
     apercu dynamique des frais en JS - 4284
+
+V2
+
+BASE DE DONNE
+    table prefixes_externes - 4064 - prefixes valables des autres operateurs
+    table commission_externe - 4284 - % commission pour transferts vers autres operateurs
+    vue v_gains_operateur_externe - 4064 - separation gains operateur et autres operateurs
+    vue v_montants_a_envoyer - 4284 - situation des montants a envoyer par operateur
+
+MODELS
+    PrefixeExterneModel - 4064 - gestion des prefixes des autres operateurs
+    CommissionExterneModel - 4284 - calcul du % commission transferts externes
+
+CONTROLLERS
+    Prefixe (maj) - 4064 - CRUD prefixes des autres operateurs
+    Creation_operation (maj) - 4284 - commission externe, situation gain et montants a envoyer
+    Client (maj) - 4064 - option frais de retrait a lenvoi et envoi multiple
+
+VIEW + ROUTE
+    vue gestion prefixes externes - 4064
+    vue situation gain (separation operateur / autres operateurs) - 4284
+    vue situation montants a envoyer par operateur - 4064
+    vue envoi client (option frais retrait, envoi multiple meme operateur) - 4284
