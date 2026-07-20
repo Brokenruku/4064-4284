@@ -1,0 +1,99 @@
+
+    body {
+      background: #000000;
+      background-image:
+        radial-gradient(circle at 5% 65%, rgba(255, 70, 20, 0.45), transparent 40%),
+        radial-gradient(circle at 95% 30%, rgba(200, 0, 255, 0.45), transparent 42%),
+        radial-gradient(circle at 15% 95%, rgba(255, 30, 60, 0.3), transparent 35%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    .glass-card {
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    .glass-input {
+      background: rgba(255, 255, 255, 0.1) !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+      color: #fff !important;
+      border-radius: 12px !important;
+    }
+
+    .glass-input::placeholder {
+      color: rgba(255, 255, 255, 0.6) !important;
+    }
+
+    .glass-input:focus {
+      background: rgba(255, 255, 255, 0.15) !important;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2) !important;
+    }
+
+    .input-group-text {
+      background: rgba(255, 255, 255, 0.1) !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+      color: #fff !important;
+      border-radius: 12px !important;
+    }
+
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+      border-radius: 12px;
+      padding: 8px 45px;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.3);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .form-check-input {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .form-check-input:checked {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .form-check-label {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.85rem;
+    }
+
+    .glass-link {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+
+    .glass-link:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    #togglePassword {
+      cursor: pointer;
+    }

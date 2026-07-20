@@ -32,3 +32,17 @@ $routes->post('/operateur/prefixes/(:num)/supprimer', 'Prefixe::delete/$1');
 
 $routes->get('/operateur/comptes', 'Creation_operation::comptes');
 $routes->get('/operateur/comptes/(:num)', 'Creation_operation::compte_detail/$1');
+
+$routes->post('/login', 'Login::authentifier');
+$routes->get('/logout', 'Login::deconnexion');
+
+$routes->group('client', ['filter' => 'clientAuth'], static function ($routes) {
+    $routes->get('/', 'Client::index');
+    $routes->get('depot', 'Client::depot');
+    $routes->post('depot', 'Client::store_depot');
+    $routes->get('retrait', 'Client::retrait');
+    $routes->post('retrait', 'Client::store_retrait');
+    $routes->get('transfert', 'Client::transfert');
+    $routes->post('transfert', 'Client::store_transfert');
+    $routes->get('historique', 'Client::historique');
+});

@@ -1,34 +1,31 @@
 <?= $this->include('layout/operateur/header') ?>
 
-<h1 class="h3 mb-4">Tableau de bord operateur</h1>
 
 <div class="row g-3 mb-4">
-    <div class="col-md-3">
-        <div class="card text-bg-primary">
-            <div class="card-body">
-                <h6 class="card-title">Clients</h6>
-                <p class="fs-4 mb-0"><?= esc($statistiques['total_clients'] ?? 0) ?></p>
-            </div>
+    <div class="card card-important">
+        <div class="card-body">
+            <h6 class="card-title">Clients</h6>
+            <p class="fs-4 mb-0"><?= esc($statistiques['total_clients'] ?? 0) ?></p>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card text-bg-success">
+    <div class="row g-3 mb-4">
+        <div class="card card-important">
             <div class="card-body">
                 <h6 class="card-title">Masse monetaire</h6>
                 <p class="fs-4 mb-0"><?= number_format($statistiques['masse_monetaire'] ?? 0, 0, ',', ' ') ?> Ar</p>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card text-bg-warning">
+    <div class="row g-3 mb-4">
+        <div class="card card-important">
             <div class="card-body">
                 <h6 class="card-title">Gains retrait</h6>
                 <p class="fs-4 mb-0"><?= number_format($statistiques['total_frais_retraits'] ?? 0, 0, ',', ' ') ?> Ar</p>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card text-bg-info">
+    <div class="row g-3 mb-4">
+        <div class="card card-important">
             <div class="card-body">
                 <h6 class="card-title">Gains transfert</h6>
                 <p class="fs-4 mb-0"><?= number_format($statistiques['total_frais_transferts'] ?? 0, 0, ',', ' ') ?> Ar</p>
