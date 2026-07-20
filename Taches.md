@@ -11,3 +11,16 @@ BASE DE DONNE
         frais_transfert
 
     INSERTION
+
+    VIEW
+
+INIT CODE IGNITER
+
+STRUCUTRE DOSSIER
+    /operateur
+    /client
+
+VIEW + ROUTE
+
+PHP
+

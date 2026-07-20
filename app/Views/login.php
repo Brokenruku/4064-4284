@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    TEST
+    <a href="/operateur/creation-operation">Go to Creation Operation</a>
 </body>
 </html>
