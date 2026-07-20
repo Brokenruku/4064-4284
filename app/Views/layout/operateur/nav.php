@@ -13,6 +13,7 @@
                 <li class="nav-item"><a class="nav-link" href="/operateur/modifier-frais">Frais</a></li>
                 <li class="nav-item"><a class="nav-link" href="/operateur/comptes">Comptes clients</a></li>
                 <li class="nav-item"><a class="nav-link" href="/operateur/gain">Gains</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">retour login</a></li>
             </ul>
         </div>
     </div>
