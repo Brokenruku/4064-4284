@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
+
 <body>
     <?= $this->include('layout/operateur/nav') ?>
     <main class="container my-4">

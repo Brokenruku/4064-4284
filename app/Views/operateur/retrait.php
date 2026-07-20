@@ -25,7 +25,7 @@
                         Frais estime : 0 Ar<br>
                         Total debite : 0 Ar
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Enregistrer le retrait</button>
+                    <button type="submit" class="btn btn-primary w-100 card-important">Enregistrer le retrait</button>
                 </form>
             </div>
         </div>

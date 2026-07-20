@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon compte</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark  navigation">
         <div class="container">
             <a class="navbar-brand" href="/client">Mon compte</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navClient">
@@ -17,12 +19,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navClient">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/client">Solde</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/client/depot">Depot</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/client/retrait">Retrait</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/client/transfert">Transfert</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/client/historique">Historique</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/logout">Deconnexion</a></li>
+                    <li class="nav-item "><a class="nav-link texte" href="/client">Solde</a></li>
+                    <li class="nav-item "><a class="nav-link texte" href="/client/depot">Depot</a></li>
+                    <li class="nav-item "><a class="nav-link texte" href="/client/retrait">Retrait</a></li>
+                    <li class="nav-item"><a class="nav-link texte" href="/client/transfert">Transfert</a></li>
+                    <li class="nav-item "><a class="nav-link texte" href="/client/historique">Historique</a></li>
+                    <li class="nav-item"><a class="nav-link texte" href="/logout">Deconnexion</a></li>
                 </ul>
             </div>
         </div>

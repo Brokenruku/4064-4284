@@ -9,6 +9,7 @@ use App\Models\TransfertModel;
 use App\Models\FraisRetraitModel;
 use App\Models\FraisTransfertModel;
 use App\Models\NumeroTelephoneModel;
+use App\Models\PrefixeModel;
 
 class Client extends BaseController
 {
@@ -89,7 +90,7 @@ class Client extends BaseController
             'date_retrait' => date('Y-m-d'),
         ]);
 
-        $numeroModel->ajusterSolde($compteId, -($montant + $frais));
+        $numeroModel->ajusterSolde($compteId, - ($montant + $frais));
 
         $db->transComplete();
 
@@ -100,9 +101,11 @@ class Client extends BaseController
     {
         $clientModel = new ClientModel();
         $fraisModel = new FraisTransfertModel();
+        $prefixeModel = new PrefixeModel();
 
         $data['resume'] = $clientModel->resume(session()->get('client_id'));
         $data['tranches'] = $fraisModel->toutesTranches();
+        $data['prefixes'] = $prefixeModel->orderBy('prefix', 'ASC')->findAll();
 
         return view('client/transfert', $data);
     }
@@ -143,7 +146,7 @@ class Client extends BaseController
             'date_transfert' => date('Y-m-d'),
         ]);
 
-        $numeroModel->ajusterSolde($expediteurId, -($montant + $frais));
+        $numeroModel->ajusterSolde($expediteurId, - ($montant + $frais));
         $numeroModel->ajusterSolde($destinataire['compte_id'], $montant);
 
         $db->transComplete();

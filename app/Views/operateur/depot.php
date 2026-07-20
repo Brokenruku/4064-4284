@@ -21,7 +21,7 @@
                         <label class="form-label">Montant</label>
                         <input type="number" step="0.01" min="1" class="form-control" name="montant" required>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Enregistrer le depot</button>
+                    <button type="submit" class="btn btn-primary w-100 card-important">Enregistrer le depot</button>
                 </form>
             </div>
         </div>

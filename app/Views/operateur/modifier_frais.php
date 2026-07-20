@@ -51,7 +51,7 @@
                         <input type="number" step="0.01" class="form-control" name="frais" placeholder="Frais" required>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary w-100">Ajouter</button>
+                        <button type="submit" class="btn btn-primary w-100 card-important">Ajouter</button>
                     </div>
                 </form>
             </div>
@@ -106,7 +106,7 @@
                         <input type="number" step="0.01" class="form-control" name="frais" placeholder="Frais" required>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary w-100">Ajouter</button>
+                        <button type="submit" class="btn btn-primary w-100 card-important">Ajouter</button>
                     </div>
                 </form>
             </div>

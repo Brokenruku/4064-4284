@@ -36,58 +36,68 @@
 
 <div class="row g-3">
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Depot</h5>
-                <p class="card-text">Enregistrer un depot pour un client</p>
-                <a href="/operateur/depot" class="btn btn-primary">Ouvrir</a>
+        <a href="/operateur/depot" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Depot</h5>
+                    <p class="card-text">Enregistrer un depot pour un client</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Retrait</h5>
-                <p class="card-text">Enregistrer un retrait avec frais applique</p>
-                <a href="/operateur/retrait" class="btn btn-primary">Ouvrir</a>
+        <a href="/operateur/retrait" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Retrait</h5>
+                    <p class="card-text">Enregistrer un retrait avec frais applique</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
+
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Transfert</h5>
-                <p class="card-text">Transferer entre deux comptes clients</p>
-                <a href="/operateur/transfert" class="btn btn-primary">Ouvrir</a>
+        <a href="/operateur/transfert" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Transfert</h5>
+                    <p class="card-text">Transferer entre deux comptes clients</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
+
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Prefixes</h5>
-                <p class="card-text">Configurer les prefixes valables de l'operateur</p>
-                <a href="/operateur/prefixes" class="btn btn-outline-primary">Ouvrir</a>
+        <a href="/operateur/prefixes" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Prefixes</h5>
+                    <p class="card-text">Configurer les prefixes valables de l'operateur</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
+
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Baremes de frais</h5>
-                <p class="card-text">Modifier les tranches de frais retrait et transfert</p>
-                <a href="/operateur/modifier-frais" class="btn btn-outline-primary">Ouvrir</a>
+        <a href="/operateur/modifier-frais" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Baremes de frais</h5>
+                    <p class="card-text">Modifier les tranches de frais retrait et transfert</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
+
     <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Comptes clients</h5>
-                <p class="card-text">Voir le solde et l'historique de chaque client</p>
-                <a href="/operateur/comptes" class="btn btn-outline-primary">Ouvrir</a>
+        <a href="/operateur/comptes" class="text-decoration-none">
+            <div class="card h-100 card-crimson">
+                <div class="card-body">
+                    <h5 class="card-title">Comptes clients</h5>
+                    <p class="card-text">Voir le solde et l'historique de chaque client</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 </div>
 

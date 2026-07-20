@@ -2,3 +2,41 @@
     background-color: #e41452;
     color: white;
 }
+
+.card-normal {
+    background-color: #f1e3e7;
+    color: rgb(48, 0, 0);
+    border-color: #52061d;
+}
+
+.card-important:hover {
+    background-color: #8B0000;
+    color: white;
+}
+
+
+body {
+    background-color: rgb(255, 246, 249);
+}
+
+.card-crimson {
+    background-color: white;
+    border: 2px solid crimson;
+    color: rgb(34, 2, 9);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card-crimson .card-title {
+    color: rgb(92, 3, 21);
+}
+
+.card-crimson:hover {
+    background-color: crimson;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.card-crimson:hover .card-title {
+    color: white;
+}

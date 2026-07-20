@@ -1,6 +1,6 @@
 <?= $this->include('layout/client/header') ?>
 
-<h1 class="h3 mb-4">Faire un retrait</h1>
+<h1 class="h3 mb-4">retrait</h1>
 
 <div class="card" style="max-width: 480px;">
     <div class="card-body">
@@ -17,7 +17,7 @@
                 Frais estime : 0 Ar<br>
                 Total debite : 0 Ar
             </div>
-            <button type="submit" class="btn btn-primary w-100">Retirer</button>
+            <button type="submit" class="btn btn-primary w-100 card-important">Retirer</button>
         </form>
     </div>
 </div>

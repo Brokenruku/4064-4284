@@ -8,19 +8,19 @@
             <div class="mb-3">
                 <label class="form-label">Numero destinataire</label>
                 <div class="input-group">
-                    <input type="text" class="form-control" style="max-width: 100px;" name="prefix_destinataire" placeholder="034" maxlength="3" required>
-                    <input type="text" class="form-control" name="numero_destinataire" placeholder="12345678" required>
+                    <select class="form-select bg-white text-dark border-end-0" name="prefix_destinataire" style="max-width: 90px; flex: 0 0 90px;" required>
+                        <?php foreach ($prefixes as $prefixe): ?>
+                        <option value="<?= esc($prefixe['prefix']) ?>"><?= esc($prefixe['prefix']) ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                    <input type="text" class="form-control border-start-0" name="numero_destinataire" placeholder="12345678" required>
                 </div>
             </div>
             <div class="mb-3">
                 <label class="form-label">Montant</label>
                 <input type="number" step="0.01" min="1" class="form-control" id="montantTransfertClient" name="montant" required>
             </div>
-            <div class="alert alert-secondary" id="apercuFraisTransfertClient">
-                Frais estime : 0 Ar<br>
-                Total debite : 0 Ar
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Transferer</button>
+            <button type="submit" class="btn btn-primary w-100 card-important">Transferer</button>
         </form>
     </div>
 </div>

@@ -51,7 +51,7 @@
                         <label class="form-label">Nom de l'operateur</label>
                         <input type="text" class="form-control" name="nom" placeholder="Telma Mobile" required>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Enregistrer</button>
+                    <button type="submit" class="btn btn-primary w-100 card-important">Enregistrer</button>
                 </form>
             </div>
         </div>
