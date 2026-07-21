@@ -10,6 +10,7 @@ use App\Models\FraisRetraitModel;
 use App\Models\FraisTransfertModel;
 use App\Models\NumeroTelephoneModel;
 use App\Models\PrefixeModel;
+use App\Models\PromotionModel;
 
 class Client extends BaseController
 {
@@ -118,12 +119,14 @@ class Client extends BaseController
         $transfertModel = new TransfertModel();
         $fraisModel = new FraisTransfertModel();
         $fraisRetraitModel = new FraisRetraitModel();
+        $promotionModel = new PromotionModel();
 
         $expediteurId = session()->get('client_id');
         $telephoneDestinataire = $this->request->getPost('prefix_destinataire') . $this->request->getPost('numero_destinataire');
         $montant = (float) $this->request->getPost('montant');
         $inclureFraisRetrait = (bool) $this->request->getPost('inclure_frais_retrait');
         $frais = $fraisModel->calculerFrais($montant);
+        $promotion = $promotionModel->listePromotion();
 
         $destinataire = $clientModel->trouverParTelephone($telephoneDestinataire);
         if (! $destinataire) {
@@ -144,7 +147,8 @@ class Client extends BaseController
             $fraisRetrait = $fraisRetraitModel->calculerFrais($montant);
         }
 
-        $totalDebite = $montant + $frais + $fraisRetrait;
+        $totalDebite = $montant + $frais + $fraisRetrait ;
+
         $montantCredite = $montant + $fraisRetrait;
 
         $compteExpediteur = $numeroModel->find($expediteurId);
@@ -170,6 +174,13 @@ class Client extends BaseController
         return redirect()->to('/client')->with('message', 'Transfert effectue, frais preleve: ' . $frais);
     }
 
+    public function numMitovy($preDest, $preEnv){
+        if($preDest == $preEnv){
+            return 1;
+        }else {
+            return 0;
+        }
+    }
     public function transfert_multiple(): string
     {
         $clientModel = new ClientModel();
@@ -177,7 +188,7 @@ class Client extends BaseController
         $prefixeModel = new PrefixeModel();
 
         $compte = $clientModel->trouverParId(session()->get('client_id'));
-
+        
         $data['resume'] = $clientModel->resume(session()->get('client_id'));
         $data['compte'] = $compte;
         $data['tranches'] = $fraisModel->toutesTranches();
@@ -202,6 +213,7 @@ class Client extends BaseController
         $numerosDestinataires = $this->request->getPost('numero_destinataire');
         $montantTotal = (float) $this->request->getPost('montant_total');
 
+        
         if (! is_array($numerosDestinataires) || count($numerosDestinataires) < 1) {
             return redirect()->to('/client/transfert-multiple')->with('erreur', 'Aucun destinataire renseigne');
         }

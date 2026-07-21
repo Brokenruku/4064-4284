@@ -20,6 +20,11 @@ CREATE TABLE commission_supp (
     FOREIGN KEY (organisation_id) REFERENCES organisation(id)
 );
 
+CREATE TABLE  promotion_meme_operateur(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pourcentage NUMERIC NOT NULL
+);
+
 CREATE TABLE numero_telephone (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     prefix_id INTEGER NOT NULL,
@@ -34,6 +39,18 @@ CREATE TABLE frais_retrait (
     montant_max NUMERIC NOT NULL,
     frais NUMERIC NOT NULL  
 );
+create table epargne(
+id integer primary key autoincrement,
+prefix Text not null,
+organisation_id integer not null,
+FOREIGN KEY (organisation_id)  REFERENCES organisation (id)
+);
+
+
+
+
+
+
 
 CREATE TABLE frais_transfert (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -125,6 +142,12 @@ FROM transfert t
 LEFT JOIN frais_transfert ft ON t.montant BETWEEN ft.montant_min AND ft.montant_max
 GROUP BY t.date_transfert
 ORDER BY date_operation DESC;
+
+CREATE VIEW v_promo AS
+SELECT
+    pourcentage
+FROM 
+    promotion_meme_operateur;
 
 -- 4. Vue des gains mensuels
 CREATE VIEW v_gains_mensuels AS
@@ -710,3 +733,8 @@ INSERT INTO transfert (
 (8, 18, 300000, '2026-07-14'),
 (9, 20, 10000, '2026-07-15'),
 (10, 1, 500000, '2026-07-15');
+
+INSERT INTO promotion_meme_operateur (
+    pourcentage
+) VALUES 
+(10);
